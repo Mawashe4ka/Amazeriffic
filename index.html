@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=7 , initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Amazeriffic</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1>Amazeriffic</h1>
-        <link rel="stylesheet" type="text/css" href="reset.css" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <nav>
-          <a href="#">Регистрация</a>| <a href="#">ВиО</a>|
-          <a href="#">Техподдержка</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <h2>Amazeriffic изменит вашу жизнь!</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore it dolore magna aliqua.
-      </p>
-      <h3>Почему вам нужен Amazeriffic?</h3>
-      <ul>
-        <li>Он легко впишется в вашу жизнь</li>
-        <li>Он классный</li>
-        <li>Он перевернет ваш мир</li>
+      <p class="header">Amazeriffic!</p>
+      <ul class="menu">
+        <li>Войти</li>
+        <li>FAQ</li>
+        <li>ТехПоддержка</li>
       </ul>
-      <img src="lightbulb.png" alt="Изображение лампочки" />
-    </main>
-    <footer>
-      <div class="contact">
-        <h5>Свяжитесь с нами</h5>
-        <p>Amazeriffic!</p>
-        <p>555 50-я улица</p>
-        <p>Татарстан, Казань 28801</p>
-      </div>
-      <div class="sitemap">
-        <h5>Карта сайта</h5>
-        <ul>
-          <li><a href="#">Домой</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Право</a></li>
-          <li><a href="#">Техподдержка</a></li>
-          <li><a href="faq.html">ВиО</a></li>
-          <li><a href="#">Вакансии</a></li>
+    </header>
+    <hr />
+
+    <div class="content">
+      <div class="content-text">
+        <h3>Amareriffic изменит вашу жизнь!</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <h4>Почему вам нужен <span class="tall">Amareriffic:</span></h4>
+        <ul class="content-menu">
+          <li class="content-menu-li">Он легко впишется в вашу жизнь</li>
+          <li class="content-menu-li">Он классный</li>
+          <li class="content-menu-li">Он перевернет ваш мир</li>
         </ul>
+      </div>
+      <img class="lamp" src="lightbulb.png" />
+    </div>
+
+    <footer>
+      <div class="left">
+        <p class="footer-head">Свяжитесь с нами</p>
+        <p class="fp italic">Amareriffic!</p>
+        <p class="fp">555 50-street</p>
+        <p class="fp">Эшкел, Западная каролина, 28810</p>
+      </div>
+
+      <div class="right">
+        <p class="footer-head">Карта сайта</p>
+        <div class="footer-menu">
+          <div class="footer-menu-left">
+            <a href="#">Домой</a>
+            <a href="#">О нас</a>
+            <a href="#">Право</a>
+          </div>
+
+          <div class="footer-menu-right">
+            <a href="#">ТехПоддержка</a>
+            <a href="faq.html">FAQ</a>
+            <a href="#">Вакансии</a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
